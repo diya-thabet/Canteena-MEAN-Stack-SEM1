@@ -1,0 +1,9 @@
+GET: http://127.0.0.1:3000/day/lister  (lister les day de la base des donner)
+
+
+POST: http://127.0.0.1:3000/day/ajouter  (ajouter une nouvelle day)
+day = {
+    "email" : "mohamaddhia@gmail.com" , 
+    "dateIng" : "07-04-2001", 
+    "statue" : "Employee of the month"
+}

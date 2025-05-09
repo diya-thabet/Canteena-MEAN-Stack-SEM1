@@ -1,0 +1,55 @@
+GET: http://127.0.0.1:3000/day/lister  (lister les day de la base des donner)
+
+
+POST: http://127.0.0.1:3000/day/ajouter  (ajouter une nouvelle day)
+
+day = {
+    "idDay" : 1 , 
+    "nomDay" : "lundi", 
+    "ref" : 1,
+}
+day = {
+    "idDay" : 2 , 
+    "nomDay" : "mardi", 
+    "ref" : 2
+}
+day = {
+    "idDay" : 3 , 
+    "nomDay" : "mercredi", 
+    "ref" : 3
+}
+day = {
+    "idDay" : 4 , 
+    "nomDay" : "jeudi", 
+    "ref" : 4
+}
+day = {
+    "idDay" : 5 , 
+    "nomDay" : "vendredi", 
+    "ref" : 5
+}
+day = {
+    "idDay" : 6 , 
+    "nomDay" : "samedi", 
+    "ref" : 6
+}
+day = {
+    "idDay" : 7 , 
+    "nomDay" : "dimanche", 
+    "ref" : 7
+}
+
+
+
+
+
+GET: http://127.0.0.1:3000/day/:id/supprimer  (supprimer day )
+
+
+
+
+POST: http://127.0.0.1:3000/day/:id/modifier  (modifier day)
+{
+    "content": "test ...",
+    "date" : "01-01-2025"
+}
